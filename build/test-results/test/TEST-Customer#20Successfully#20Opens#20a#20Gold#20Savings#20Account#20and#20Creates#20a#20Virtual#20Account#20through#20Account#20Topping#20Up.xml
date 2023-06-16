@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up" tests="11" skipped="6" failures="2" errors="0" timestamp="2023-06-16T12:51:54" hostname="Muhammads-MBP" time="22.228">
+  <properties/>
+  <testcase name="Customer on Pegadaian login page" classname="Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up" time="5.553"/>
+  <testcase name="Customer input phone number and password" classname="Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up" time="0.852"/>
+  <testcase name="Customer click chapcha" classname="Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up" time="0.693"/>
+  <testcase name="Customer clic Masuk button" classname="Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up" time="15.083">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#btn_submit_login&quot;}&#10;  (Session info: chrome=114.0.5735.133)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Muhammads-MBP', ip: 'fe80:0:0:0:451:e2d9:f96f:ec1e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0.1', java.version: '1.8.0_351'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/qb/3wp7q4qs289...}, goog:chromeOptions: {debuggerAddress: localhost:60002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 88d80e110730decc30e81be717095629&#10;*** Element info: {Using=id, value=btn_submit_login}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#btn_submit_login&quot;}
+  (Session info: chrome=114.0.5735.133)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Muhammads-MBP', ip: 'fe80:0:0:0:451:e2d9:f96f:ec1e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0.1', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/qb/3wp7q4qs289...}, goog:chromeOptions: {debuggerAddress: localhost:60002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88d80e110730decc30e81be717095629
+*** Element info: {Using=id, value=btn_submit_login}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.TabunganEmasPage.clickMasukBtn(TabunganEmasPage.java:47)
+	at steps.MyStepdefs.customerClicMasukButton(MyStepdefs.java:33)
+	at ✽.Customer clic Masuk button(file:///Users/muhammadf/IdeaProjects/pegadaian/src/test/resources/features/TabunganEmas.feature:8)
+</failure>
+  </testcase>
+  <testcase name="Customer click Buka Tabungan button" classname="Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase name="Customer input all personal details" classname="Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Customer input all branch detail" classname="Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase name="Customer click check box agreement" classname="Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Customer select BRI as payment method" classname="Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="Customer able to see the VA" classname="Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up" time="27.289">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#btn_submit_login&quot;}&#10;  (Session info: chrome=114.0.5735.133)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Muhammads-MBP', ip: 'fe80:0:0:0:451:e2d9:f96f:ec1e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0.1', java.version: '1.8.0_351'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/qb/3wp7q4qs289...}, goog:chromeOptions: {debuggerAddress: localhost:60002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 88d80e110730decc30e81be717095629&#10;*** Element info: {Using=id, value=btn_submit_login}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#btn_submit_login&quot;}
+  (Session info: chrome=114.0.5735.133)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Muhammads-MBP', ip: 'fe80:0:0:0:451:e2d9:f96f:ec1e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0.1', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/qb/3wp7q4qs289...}, goog:chromeOptions: {debuggerAddress: localhost:60002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88d80e110730decc30e81be717095629
+*** Element info: {Using=id, value=btn_submit_login}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.TabunganEmasPage.clickMasukBtn(TabunganEmasPage.java:47)
+	at steps.MyStepdefs.customerClicMasukButton(MyStepdefs.java:33)
+	at ✽.Customer clic Masuk button(file:///Users/muhammadf/IdeaProjects/pegadaian/src/test/resources/features/TabunganEmas.feature:8)
+</failure>
+  </testcase>
+  <system-out><![CDATA[
+@TopUp
+Scenario: Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up ?[90m# src/test/resources/features/TabunganEmas.feature:4?[0m
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 12905
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2023 7:51:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

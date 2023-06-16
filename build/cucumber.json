@@ -1,0 +1,168 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-16T12:51:50.046Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4824000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.WebHook.inisialisasiWebdriver()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Customer Successfully Opens a Gold Savings Account and Creates a Virtual Account through Account Topping Up",
+        "description": "",
+        "id": "topup-tabungan-emas;customer-successfully-opens-a-gold-savings-account-and-creates-a-virtual-account-through-account-topping-up",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5551000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Customer on Pegadaian login page",
+            "match": {
+              "location": "steps.MyStepdefs.customerOnPegadaianLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 852000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer input phone number and password",
+            "match": {
+              "location": "steps.MyStepdefs.customerInputPhoneNumberAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer click chapcha",
+            "match": {
+              "location": "steps.MyStepdefs.customerClickChapcha()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#btn_submit_login\"}\n  (Session info: chrome\u003d114.0.5735.133)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Muhammads-MBP\u0027, ip: \u0027fe80:0:0:0:451:e2d9:f96f:ec1e%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0.1\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/qb/3wp7q4qs289...}, goog:chromeOptions: {debuggerAddress: localhost:60002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 88d80e110730decc30e81be717095629\n*** Element info: {Using\u003did, value\u003dbtn_submit_login}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat pages.TabunganEmasPage.clickMasukBtn(TabunganEmasPage.java:47)\n\tat steps.MyStepdefs.customerClicMasukButton(MyStepdefs.java:33)\n\tat ✽.Customer clic Masuk button(file:///Users/muhammadf/IdeaProjects/pegadaian/src/test/resources/features/TabunganEmas.feature:8)\n",
+              "duration": 15080000000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Customer clic Masuk button",
+            "match": {
+              "location": "steps.MyStepdefs.customerClicMasukButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Customer click Buka Tabungan button",
+            "match": {
+              "location": "steps.MyStepdefs.customerClickBukaTabunganButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Customer input all personal details",
+            "match": {
+              "location": "steps.MyStepdefs.customerInputAllPersonalDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Customer input all branch detail",
+            "match": {
+              "location": "steps.MyStepdefs.customerInputAllBranchDetail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Customer click check box agreement",
+            "match": {
+              "location": "steps.MyStepdefs.customerClickCheckBoxAgreement()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Customer select BRI as payment method",
+            "match": {
+              "location": "steps.MyStepdefs.customerSelectBRIAsPaymentMethod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Customer able to see the VA",
+            "match": {
+              "location": "steps.MyStepdefs.customerAbleToSeeTheVA()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TopUp"
+          }
+        ]
+      }
+    ],
+    "name": "Topup tabungan emas",
+    "description": "",
+    "id": "topup-tabungan-emas",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TabunganEmas.feature",
+    "tags": [
+      {
+        "name": "@TopUp",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

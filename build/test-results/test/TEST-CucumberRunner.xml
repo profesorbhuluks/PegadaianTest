@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CucumberRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="Muhammads-MBP" time="0.0">
+  <properties/>
+  <system-out><![CDATA[  ?[32mGiven ?[0m?[32mCustomer on Pegadaian login page?[0m                                                                              ?[90m# steps.MyStepdefs.customerOnPegadaianLoginPage()?[0m
+  ?[32mWhen ?[0m?[32mCustomer input phone number and password?[0m                                                                       ?[90m# steps.MyStepdefs.customerInputPhoneNumberAndPassword()?[0m
+  ?[32mAnd ?[0m?[32mCustomer click chapcha?[0m                                                                                          ?[90m# steps.MyStepdefs.customerClickChapcha()?[0m
+  ?[31mAnd ?[0m?[31mCustomer clic Masuk button?[0m                                                                                      ?[90m# steps.MyStepdefs.customerClicMasukButton()?[0m
+      ?[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#btn_submit_login"}
+  (Session info: chrome=114.0.5735.133)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Muhammads-MBP', ip: 'fe80:0:0:0:451:e2d9:f96f:ec1e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0.1', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/qb/3wp7q4qs289...}, goog:chromeOptions: {debuggerAddress: localhost:60002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88d80e110730decc30e81be717095629
+*** Element info: {Using=id, value=btn_submit_login}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.TabunganEmasPage.clickMasukBtn(TabunganEmasPage.java:47)
+	at steps.MyStepdefs.customerClicMasukButton(MyStepdefs.java:33)
+	at ✽.Customer clic Masuk button(file:///Users/muhammadf/IdeaProjects/pegadaian/src/test/resources/features/TabunganEmas.feature:8)
+?[0m
+  ?[36mAnd ?[0m?[36mCustomer click Buka Tabungan button?[0m                                                                             ?[90m# steps.MyStepdefs.customerClickBukaTabunganButton()?[0m
+  ?[36mAnd ?[0m?[36mCustomer input all personal details?[0m                                                                             ?[90m# steps.MyStepdefs.customerInputAllPersonalDetails()?[0m
+  ?[36mAnd ?[0m?[36mCustomer input all branch detail?[0m                                                                                ?[90m# steps.MyStepdefs.customerInputAllBranchDetail()?[0m
+  ?[36mAnd ?[0m?[36mCustomer click check box agreement?[0m                                                                              ?[90m# steps.MyStepdefs.customerClickCheckBoxAgreement()?[0m
+  ?[36mAnd ?[0m?[36mCustomer select BRI as payment method?[0m                                                                           ?[90m# steps.MyStepdefs.customerSelectBRIAsPaymentMethod()?[0m
+  ?[36mThen ?[0m?[36mCustomer able to see the VA?[0m                                                                                    ?[90m# steps.MyStepdefs.customerAbleToSeeTheVA()?[0m
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m┌──────────────────────────────────────────────────────────────────────────┐?[0m
+?[32m?[1m│?[0m View your Cucumber Report at:                                            ?[32m?[1m│?[0m
+?[32m?[1m│?[0m ?[1m?[36m?[4mhttps://reports.cucumber.io/reports/fbdcc5e8-c53c-4c3d-8f06-80b0f98a8771?[0m ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                          ?[32m?[1m│?[0m
+?[32m?[1m│?[0m ?[1mThis report will self-destruct in 24h.?[0m                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Keep reports forever: ?[4m?[1m?[36mhttps://reports.cucumber.io/profile?[0m                ?[32m?[1m│?[0m
+?[32m?[1m└──────────────────────────────────────────────────────────────────────────┘?[0m]]></system-err>
+</testsuite>
